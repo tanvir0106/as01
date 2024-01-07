@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+section {
+    margin-left: 140px;
+    margin-left: 140px;
+}
+
+.hstart {
+    background-image: url('../resources/Banner\ Image.png');
+    width: 1320px;
+    height: 650px;
+    background-repeat: no-repeat;
+
+
+}
+
+header h6,
+h1 {
+    color: rgb(247, 249, 252);
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 40px;
+    padding-right: 40pxss;
+    font-family: 'Lemon', serif;
+    border: 5px;
+    text-shadow: 0 0 13px #FF0000, 0 0 10px #0000FF;
+}
+
+header h6 {
+    margin: 0%;
+    font-size: 48px;
+}
+
+header h1 {
+    margin: 0%;
+    font-size: 80px;
+}
+
+.HAPPYE {
+    padding-top: 170px;
+
+}
+
+/*new section*/
+
+.off {
+    background-image: url('../resources/sur.png');
+    margin: 0 200px;
+    padding: 70px 0 30px 0;
+    width: 800px;
+    height: 500px;
+}
+
+.off h1 {
+    color: #ff0000;
+    font-family: Inter;
+    text-align: left;
+    padding: 0px 10px 0 50px;
+    margin: 0;
+    text-shadow: 0 0 0px #FF0000, 0 0 0;
+}
+
+.off h6 {
+    max-width: 200px;
+    color: #ff0000;
+    text-shadow: none;
+    font-family: Inter;
+    padding: 60px 10px 10px 90px;
+}
+
+.off h6 span {
+    font-size: 100px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.GIFTS{max-width: 900px;
+line-height: 0;
+font-family: 'Sora', sans-serif;
+   font-size: 50px;}
+.GIFTS h6 {
+    color: #F00;
+font-size: 22px;
+
+    padding-bottom: 5px;
+}
+
+.GIFTS h3 {
+    color: #070211;
+font-size: 50px;
+    
+    padding-bottom: 0px;
+   padding-top: 0;
+   margin-top: 0px;
+   margin-bottom: 0;
+}
+
+.GIFTS p {
+    line-height: normal;
+    max-width: 900px;
+    color: rgba(7, 2, 17, 0.60);
+    
+    
+}
