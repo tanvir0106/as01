@@ -2,14 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 section {
-    margin-left: 140px;
-    margin-left: 140px;
+    margin-left: 60px;
+    margin-left: 60px;
+    max-width: 1300px;
 }
 
 .hstart {
-    background-image: url('../resources/Banner\ Image.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.107),rgba(0, 0, 0, 0.51)), 
+    
+    url('../resources/Banner\ Image.png');
+    
     width: 1320px;
-    height: 650px;
+    height: 600px;
     background-repeat: no-repeat;
 
 
@@ -101,10 +105,36 @@ font-size: 50px;
     line-height: normal;
     max-width: 900px;
     color: rgba(7, 2, 17, 0.60);
-    
-    
 }
+
 
 /*image section*/
 
-.form-submit-btn {background: red;}
+
+
+.SUBSCRIBE{
+
+    text-align: center;
+    
+    background: rgba(186, 168, 114, 0.947);
+    font-family: 'Sora', sans-serif;
+    justify-content: center;
+}
+
+form{;
+    
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    
+    margin: 0 auto;
+}
+
+form button {
+    background-color: #F00;
+    color: #FFF;
+    font-family: 'Times New Roman', Times, serif;
+   
+    
+}
