@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 section { 
     max-width: 1400px;
-
     margin-left: 60px;
     margin-left: 60px;
     margin-top: 0%;
@@ -15,15 +16,11 @@ section {
 .HEADERSTAR {
     background-image: 
     url("../resources/Banner\ Image.png");
-   
    width: 1300px;
    height: 600px;
-    
-   
     background-repeat: no-repeat;
     color: white;
     padding-bottom: 0;
-    
 }
 
 .shopnow{
@@ -37,8 +34,6 @@ section {
     border-radius: 5px;
     background-color: red}
 
-
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
 .hcon{ text-align: center;
     padding-top: 90px;
     font-family: 'Abril Fatface', serif;
@@ -46,28 +41,16 @@ section {
     text-shadow: 5px 6px 9px rgb(1, 1, 1);
 justify-content: center;}
 
-
-
-
-
-
-
-
-
 /*------------------new section 60%OFF------------------------------*/
 
 .off {
     background-image: url('../resources/New\ Year\ Photo.png');
     background-repeat: no-repeat;
    margin-left: 100px;
-    
    max-width: 1000px;
     height: 500px;
     padding-left: 0;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
 .offh1 {font-size: 80px;
     background-position: left bottom;
@@ -78,7 +61,6 @@ justify-content: center;}
     padding-bottom: 0;
     margin: 0;
     text-shadow: 5px 5px 5px rgb(8, 0, 0);
-
 }
 
 .offh6 {
@@ -87,11 +69,9 @@ justify-content: center;}
     font-size:50px ;
     text-shadow: 5px 5px 5px rgb(5, 1, 1);
     color: #fb0404f6;
-    
     font-family: Inter;
    padding-left: 20px;
     margin-right: 20px;
-    
 }
 
 .off h6 span {
@@ -99,27 +79,52 @@ justify-content: center;}
     text-align: left;
     padding: 0;
 }
+/*----------------------welcom ---------------*/
+
+.welcomparty{background-image:url('../resources/Vectorrr.png') ;
+background-repeat: no-repeat;
+border-radius: 20px;
+
+width: 1400px;
+height: 600px;}
+.partyleft{width: 40%;
+padding-left: 30px;}
+
+.partycon{display: flex ;
+justify-content: space-between;}
+
+.pasrtyh1{color: rgb(255, 255, 255);
+font-size: 90px;
+padding-bottom: 0%;
+}
+.partyp{color: wheat;
+padding-top: 0;}
+.join{background-color: #070211;
+border-radius: 9px;
+color: white;
+width: 100px;
+height: 40px;
+font-family: Arial, Helvetica, sans-serif;
+background-shadow: ;}
+
+
+.partyright{width: 30%;
+margin-right: 50px;
+padding-top: 60px;}
 
 /*------------------------EID OFFER------------------------*/
-border-radius: 10px;
-background-color: #FFF8F3 ;
-ba
-
 .EOD{ 
-   background-color: black;
+  
     display: flex;
 margin: 70px;}
-
 #lb {
     float: left;
     width: 40%;
 }
-
 #mb {
     float: left;
     width: 30%;
 }
-
 #rb {
     float: right;
     width: 25%;
@@ -133,7 +138,7 @@ text-align: center;}
 .comming{font-size: 60px;
 color: rgb(235, 0, 0);}
 
-/*product*/
+/*_____________________product_________________________________*/
 
 .ln1 {
     display: flex
@@ -150,19 +155,12 @@ color: rgb(235, 0, 0);}
 .product:hover {
     transform: scale(1.1)
 }
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
 .GIFTS {
 
     max-width: 900px;
     line-height: 0;
     font-family: 'Sora', sans-serif;
     font-size: 50px;
-
-
 }
 
 .GIFTS h6 {
@@ -175,7 +173,6 @@ color: rgb(235, 0, 0);}
 .GIFTS h3 {
     color: #070211;
     font-size: 50px;
-
     padding-bottom: 0px;
     padding-top: 0;
     margin-top: 0px;
@@ -189,7 +186,7 @@ color: rgb(235, 0, 0);}
 }
 
 
-/*image section*/
+/*___________________image section_______________________________*/
 
 
 .SUBSCRIBE {
@@ -203,8 +200,7 @@ color: rgb(235, 0, 0);}
 }
 
 form {
-    ;
-
+    
     width: 100px;
     display: flex;
     justify-content: center;
@@ -220,7 +216,7 @@ form button {
 }
 
 
-/*  -----------footer-----------        */
+/*  -------------------------------------footer-----------------------------------        */
 footer {
     background-color: #070211;
     color: #FFF;
@@ -228,8 +224,8 @@ footer {
     max-height: 1200px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 100px;
-    padding-bottom: 130px;
+    padding-top: 90px;
+    padding-bottom: 100px;
     padding-left: 40PX;
     padding-right: 40px;
 }
@@ -237,8 +233,10 @@ footer {
 .addres {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
-
+hr.new1 {
+    border-top: 0.2px dotted rgb(255, 255, 255) ;margin-bottom: 150px;}
 .social {
     text-align: center;
 }
@@ -247,3 +245,4 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
