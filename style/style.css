@@ -1,111 +1,185 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-section {
+
+section { 
+    max-width: 1400px;
+
     margin-left: 60px;
     margin-left: 60px;
-    max-width: 1300px;
+    margin-top: 0%;
+    margin-bottom: 50px;
 }
 
-.hstart {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.107),rgba(0, 0, 0, 0.51)), 
+/*-------------------HEADER---------------*/
+.HEADERSTAR {
+    background-image: 
+    url("../resources/Banner\ Image.png");
+   
+   width: 1300px;
+   height: 600px;
     
-    url('../resources/Banner\ Image.png');
-    
-    width: 1320px;
-    height: 600px;
+   
     background-repeat: no-repeat;
-
-
-}
-
-header h6,
-h1 {
-    color: rgb(247, 249, 252);
-    text-align: center;
-    padding-top: 0;
+    color: white;
     padding-bottom: 0;
-    padding-left: 40px;
-    padding-right: 40pxss;
-    font-family: 'Lemon', serif;
-    border: 5px;
-    text-shadow: 0 0 13px #FF0000, 0 0 10px #0000FF;
+    
 }
 
-header h6 {
-    margin: 0%;
-    font-size: 48px;
-}
+.shopnow{
+    width: 100px;
+    height: 30px;
+    font size: 30px;
+    margin-top: 50px;
+    margin-left: 1100px;
+    margin-bottom: 10px;
+    color: #FFF;
+    border-radius: 5px;
+    background-color: red}
 
-header h1 {
-    margin: 0%;
-    font-size: 80px;
-}
 
-.HAPPYE {
-    padding-top: 170px;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
+.hcon{ text-align: center;
+    padding-top: 90px;
+    font-family: 'Abril Fatface', serif;
+    font-size:40px;
+    text-shadow: 5px 6px 9px rgb(1, 1, 1);
+justify-content: center;}
 
-}
 
-/*new section*/
+
+
+
+
+
+
+
+/*------------------new section 60%OFF------------------------------*/
 
 .off {
-    background-image: url('../resources/sur.png');
-    margin: 0 200px;
-    padding: 70px 0 30px 0;
-    width: 800px;
+    background-image: url('../resources/New\ Year\ Photo.png');
+    background-repeat: no-repeat;
+   margin-left: 100px;
+    
+   max-width: 1000px;
     height: 500px;
+    padding-left: 0;
 }
 
-.off h1 {
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+.offh1 {font-size: 80px;
+    background-position: left bottom;
     color: #ff0000;
-    font-family: Inter;
+    font-family: 'Bungee Spice', sans-serif;
     text-align: left;
-    padding: 0px 10px 0 50px;
+    padding: 60px 10px 0 50px;
+    padding-bottom: 0;
     margin: 0;
-    text-shadow: 0 0 0px #FF0000, 0 0 0;
+    text-shadow: 5px 5px 5px rgb(8, 0, 0);
+
 }
 
-.off h6 {
-    max-width: 200px;
-    color: #ff0000;
-    text-shadow: none;
+.offh6 {
+    text-align: center left ;
+    text-align: top;
+    font-size:50px ;
+    text-shadow: 5px 5px 5px rgb(5, 1, 1);
+    color: #fb0404f6;
+    
     font-family: Inter;
-    padding: 60px 10px 10px 90px;
+   padding-left: 20px;
+    margin-right: 20px;
+    
 }
 
 .off h6 span {
-    font-size: 100px;
+    font-size: 90px;
+    text-align: left;
+    padding: 0;
 }
+
+/*------------------------EID OFFER------------------------*/
+border-radius: 10px;
+background-color: #FFF8F3 ;
+ba
+
+.EOD{ 
+   background-color: black;
+    display: flex;
+margin: 70px;}
+
+#lb {
+    float: left;
+    width: 40%;
+}
+
+#mb {
+    float: left;
+    width: 30%;
+}
+
+#rb {
+    float: right;
+    width: 25%;
+    font-size: 40px;
+    padding: 30px;
+   
+    text-align: center;
+}
+.edul{font-size: 40px;
+text-align: center;}
+.comming{font-size: 60px;
+color: rgb(235, 0, 0);}
 
 /*product*/
 
-.ln1  {display: flex}
-.ln2{display: flex}
+.ln1 {
+    display: flex
+}
+
+.ln2 {
+    display: flex
+}
+
+.product {
+    margin: 10px;
+}
+
+.product:hover {
+    transform: scale(1.1)
+}
 
 
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-.GIFTS{max-width: 900px;
-line-height: 0;
-font-family: 'Sora', sans-serif;
-   font-size: 50px;}
+.GIFTS {
+
+    max-width: 900px;
+    line-height: 0;
+    font-family: 'Sora', sans-serif;
+    font-size: 50px;
+
+
+}
+
 .GIFTS h6 {
     color: #F00;
-font-size: 29px;
+    font-size: 29px;
 
     padding-bottom: 5px;
 }
 
 .GIFTS h3 {
     color: #070211;
-font-size: 50px;
-    
+    font-size: 50px;
+
     padding-bottom: 0px;
-   padding-top: 0;
-   margin-top: 0px;
-   margin-bottom: 0;
+    padding-top: 0;
+    margin-top: 0px;
+    margin-bottom: 0;
 }
 
 .GIFTS p {
@@ -118,39 +192,58 @@ font-size: 50px;
 /*image section*/
 
 
-
-.SUBSCRIBE{
-
+.SUBSCRIBE {
+    padding: 80px;
+    max-height: 700px;
     text-align: center;
-    
+    border-radius: 10px;
     background: rgba(186, 168, 114, 0.947);
     font-family: 'Sora', sans-serif;
     justify-content: center;
 }
 
-form{;
-    
+form {
+    ;
+
     width: 100px;
     display: flex;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
     margin: 0 auto;
-    
 }
 
 form button {
     background-color: #F00;
     color: #FFF;
-    
-   
-   
     border-top-right-radius: 20px;
-   border-bottom-right-radius: 20px;}
+    border-bottom-right-radius: 20px;
+}
 
 
-   /*footer*/
+/*  -----------footer-----------        */
+footer {
+    background-color: #070211;
+    color: #FFF;
+    max-width: 1420px;
+    max-height: 1200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    padding-left: 40PX;
+    padding-right: 40px;
+}
 
+.addres {
+    display: flex;
+    justify-content: space-between;
+}
 
-   .addres{display:flex;
-justify-content: space-between;
+.social {
+    text-align: center;
+}
+
+.rights {
+    display: flex;
+    justify-content: space-between;
 }
