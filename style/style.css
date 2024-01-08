@@ -78,6 +78,13 @@ header h1 {
     font-size: 100px;
 }
 
+/*product*/
+
+.ln1  {display: flex}
+.ln2{display: flex}
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 .GIFTS{max-width: 900px;
@@ -123,18 +130,27 @@ font-size: 50px;
 
 form{;
     
-    border-radius: 50px;
-
+    width: 100px;
     display: flex;
     justify-content: center;
-    
+    font-family: 'Times New Roman', Times, serif;
     margin: 0 auto;
+    
 }
 
 form button {
     background-color: #F00;
     color: #FFF;
-    font-family: 'Times New Roman', Times, serif;
-   
     
+   
+   
+    border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;}
+
+
+   /*footer*/
+
+
+   .addres{display:flex;
+justify-content: space-between;
 }
